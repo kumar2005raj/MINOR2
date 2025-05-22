@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Call Summarizer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Call Summarizer</h1>
+        <input type="file" id="audioFile" accept="audio/*">
+        <button id="uploadButton">Upload and Summarize</button>
+        <div id="loading" style="display:none;">Processing...</div>
+        <div id="result" style="margin-top: 20px;">
+            <h2>Summary</h2>
+            <pre id="summaryText"></pre>
+            <h2>Transcription</h2>
+            <pre id="transcriptionText"></pre>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

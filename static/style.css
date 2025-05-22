@@ -1,0 +1,193 @@
+/* body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#loading {
+    text-align: center;
+    margin-top: 15px;
+    font-style: italic;
+    color: #777;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+#summaryText, #transcriptionText {
+    white-space: pre-wrap; /* Preserve line breaks */
+/* } */ 
+
+body {
+    font-family: sans-serif; /* Assuming a standard sans-serif like Open Sans or similar */
+    margin: 0;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text */
+    line-height: 1.6;
+    padding: 20px; /* Add some overall padding */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+     background-image: url("/static/images/background.png") ;
+}
+
+.container {
+    max-width: 960px; /* A common max-width for website content */
+    margin: 40px auto; /* Center the container with some top/bottom margin */
+    background-color: #fff; /* White content background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    /* background-image: url("background.png") ; */
+    background-color:white;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em; /* Larger headline */
+    font-weight: bold;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 20px auto; /* Center the file input */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 80%; /* Make it wider */
+    max-width: 400px; /* Set a maximum width */
+    box-sizing: border-box;
+}
+
+button#uploadButton {
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto; /* Center the button */
+    padding: 12px 25px;
+    background-color: #007bff; /* Primary blue color from the screenshot */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+button#uploadButton:hover {
+    background-color: #0056b3;
+}
+
+#loading {
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    color: #777;
+}
+
+#result {
+    margin-top: 40px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#result h2 {
+    color: #333;
+    text-align: left; /* Align summary and transcription titles to the left */
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#result pre {
+    background-color: #eee;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    white-space: pre-wrap;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    input[type="file"],
+    button#uploadButton {
+        width: 95%;
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #result {
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    #result h2 {
+        font-size: 1.3em;
+    }
+
+    #result pre {
+    font-size: 0.95em;
+}
+
+}
