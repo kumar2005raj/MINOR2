@@ -6,9 +6,9 @@ AI Voice Call Summarizer is an intelligent web application that allows users to 
 It leverages powerful natural language processing models and speech-to-text technologies to transform spoken conversations into clear, structured insights.
 
 # Team Member Name:
-  ## Raj Kumar
-  ## Rohit Sonwar
-  ## Rohit Kumar
+  ## Raj Kumar -> 0827CS221219
+  ## Rohit Sonwar -> 0827CS221233
+  ## Rohit Kumar -> 0827CS221232
 
 ---
 
