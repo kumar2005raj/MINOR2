@@ -40,7 +40,7 @@ It leverages powerful natural language processing models and speech-to-text tech
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/MINOR2.git
+git clone https://github.com/Kumar2005raj/MINOR2.git
 
 # Navigate into the directory
 cd your-project-name
